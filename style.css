@@ -1,0 +1,266 @@
+body {
+    margin: 3% 3%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.breadcrumb {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.topnav {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 10px;
+}
+
+
+.nav {
+    margin: 5px;
+    border: 1px solid black;
+    padding: 10px 40px;
+}
+
+
+.nav>a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+img {
+    height: 450px;
+    width: 100%;
+}
+
+
+.banner-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+
+.centeredtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px #ff00008a;
+    text-transform: uppercase;
+    font-size: 60px;
+  }
+
+  .centeredtext>p {
+      font-size: 20px;
+      text-transform: capitalize;
+      text-shadow: none;
+  }
+
+  .container {  
+      margin: 0px 8%;
+  }
+
+  .row1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 40px 0;
+    }  
+
+  .card, .card2, .card4, .card5 {
+      margin: 1rem;
+      background-color: rgba(0, 0, 0, 0.082);
+  }
+
+  .card>img {
+      width: 100%;
+      height: 150px;
+  }
+
+  .card2>img {
+      width: 100%;
+      height: 250px;
+  }
+
+ .card-content, .card-content2 {
+     padding: 2px 16px;
+ }
+
+ .card-content>h3 {
+    font-weight: bolder;
+    text-transform: capitalize;
+ }
+
+ .green>h3 {
+     color: green;
+ }
+
+ .green>button {
+     background-color: green;
+ }
+
+ .blue>h3 {
+    color:rgba(0, 0, 255, 0.507);
+
+}
+ .blue>button {
+    background-color: rgba(0, 0, 255, 0.507);
+ }
+
+
+ .wine>h3 {
+    color:rgba(0, 0, 0, 0.644);
+
+}
+ .wine>button {
+    background-color: rgba(255, 0, 0, 0.863);
+ }
+
+
+ .card-content>button {
+    border-radius: 6px;
+    font-size: 15px;
+    margin: 0 25% 20px 25%;
+    color: white;
+    text-transform: capitalize;
+    width: 50%;
+    padding: 7px 20px;
+ }
+
+
+ .row2{
+     margin-bottom: 400px;
+
+ }
+
+
+ .column2 {
+    float: left;
+    width: 50%;
+    margin-bottom: 120px;
+
+ }
+
+ .card-content2>h3 {
+     text-align: center;
+ }
+
+.card-content2>button {
+    width: 20%;
+    margin: 0 30% 20px 70%;
+}
+
+h1 {
+    color: rgb(128, 128, 128);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.048);
+    text-align: center; 
+    margin: 10px 0;
+}
+
+.column3 {
+    display: flex;
+    flex-direction: row;
+    margin: 150px 0 1rem 0;
+}
+
+.card4>img {
+    width: 100%;
+    height: 200px;
+}
+
+
+.card-content>h4 {
+    color: rgb(128, 128, 128);
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px; 
+}
+
+.read>button, .details>button {
+    color: black;
+    background-color: whitesmoke;
+}
+
+
+.card-content>p {
+    color: rgb(128, 128, 128);
+}
+
+
+.card-content3>button {
+    width: 15%;
+}
+
+
+.contact {
+    margin: 10%;
+    margin-bottom: 400px;
+}
+
+.list>button {
+    color: rgba(0, 0, 0, 0.788);
+    margin: 0;
+    width: 15%;
+    background-color: whitesmoke;
+}
+
+
+.contact>h2 {
+    padding: 20px 10px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.329);
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.data-input {
+    float: left;
+    display: block;
+    width: 50%;
+}
+
+.info>input, .data-input>textarea {
+    border: 1px solid white;
+    margin-bottom: 20px;
+    width: 93%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+
+.data-input>textarea, .data-input>button {
+    margin-left: 15px;
+}
+
+.data-input>button {
+    color: white;
+    border-radius: 8px;
+    width: 20%;
+    padding: 10px;
+    background-color: black;
+
+}
+.section4{
+    text-align: center;
+    margin-bottom: 200px;
+
+}
+
+footer {
+    text-align: center;
+    margin: 30px 0 200px 0;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 900px) {
+    .topnav {flex-direction: column;}
+  }
+  
+
+  
